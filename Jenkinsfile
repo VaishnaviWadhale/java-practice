@@ -23,4 +23,16 @@ pipeline {
             }
         }
     }
+
+    post {
+        success {
+            echo 'Build succeeded! Everything worked.'
+        }
+        failure {
+            echo 'Build failed! Check the console output above.'
+        }
+        always {
+            echo 'Pipeline finished, whatever the result.'
+        }
+    }
 }
