@@ -1,6 +1,6 @@
 public class Hello {
   public static void main(String[] args) {
-      System.out.println("Heloo from Jenkinsss!");
+      System.out.println("Heloo from GitHub!");
   }
 
 }
